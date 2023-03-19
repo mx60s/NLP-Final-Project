@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  jupyter-lab:
+    build:
+      context: .
+    image: jupyterlab:3.5.0
+    ports:
+      - 8888:8888
+    #environment:
+    volumes:
+      - ./src:/home/jovyan/work
