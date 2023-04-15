@@ -31,5 +31,6 @@ def worker(fname, prefix, fn):
     dumper(ret, prefix)
 
 
+# right now it expects a json but that will probably be different
 for split in ['train', 'valid', 'test']:
     worker(os.path.join(f"{data_dir}", f"{split}.json"), os.path.join(f"{data_dir}", f"relis_{split}"), build_target_seq_relis)
