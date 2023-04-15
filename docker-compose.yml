@@ -1,4 +1,4 @@
-version: '3.9'
+version: '3.10'
 
 services:
   jupyter-lab:
@@ -7,6 +7,8 @@ services:
     image: jupyterlab:3.5.0
     ports:
       - 8888:8888
-    #environment:
+    environment:
+      - FASTBPE=${PWD}/fastBPE
+      - MOSES=${PWD}/mosesdecoder
     volumes:
       - ./src:/home/jovyan/work
