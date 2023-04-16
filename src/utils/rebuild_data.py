@@ -20,7 +20,7 @@ def loader(fname):
             if i % 2 == 0:
                 x.append(line)
             else:
-                if line == '0':
+                if line[0] == '0':
                     y.append('')
                 else:
                     y.append('the relation between BR1 and BR2 exists.')
