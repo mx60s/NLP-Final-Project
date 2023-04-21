@@ -1,7 +1,7 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
-DATA_DIR=../data
+DATA_DIR=../data/nonblank
 prefix=relis
 OUTPUT_DIR=${DATA_DIR}/${prefix}-bin
 
