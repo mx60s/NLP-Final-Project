@@ -6,8 +6,8 @@ mkdir -p ${SAVE_DIR}
 
 fairseq-train \
     ../data/relis-bin --save-dir ${SAVE_DIR} \
-    --user-dir /Users/mvonebers/nlp/project/src/src \
-    --finetune-from-model ../checkpoints/Pre-trained-BioGPT/checkpoint.pt \
+    --user-dir /content/gdrive/MyDrive/nlp-final/NLP-Final-Project/src/src \
+    --finetune-from-model ../checkpoints/RE-WhiteText-BioGPT/checkpoint6.pt \
     --task language_modeling_prompt \
     --arch transformer_lm_prompt_biogpt \
     --share-decoder-input-output-embed --decoder-learned-pos \
@@ -17,5 +17,5 @@ fairseq-train \
     --tokens-per-sample 1024 --max-source-positions 640 --max-target-positions 1024 \
     --max-tokens 1024 --update-freq 32 \
     --skip-invalid-size-inputs-valid-test \
-    --max-epoch 1 --keep-last-epochs 5 \
+    --max-epoch 40 --keep-last-epochs 2 \
     --learned-prompt 9
