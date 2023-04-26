@@ -1,7 +1,7 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 
-DATA_DIR=../data/nonblank
+DATA_DIR=../data/tagged_data/pos_only
 prefix=relis
 OUTPUT_DIR=${DATA_DIR}/${prefix}-bin
 
@@ -29,4 +29,4 @@ fairseq-preprocess \
     --validpref ${DATA_DIR}/${prefix}_valid.tok.bpe \
     --testpref ${DATA_DIR}/${prefix}_test.tok.bpe \
     --destdir ${OUTPUT_DIR} \
-    --srcdict ${DATA_DIR}/dict.txt
+    --srcdict ${DATA_DIR}/comb_dict.txt
