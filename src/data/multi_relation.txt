@@ -1,0 +1,7 @@
+Thus the <BrainRegion>dorsomedial part of the subthalamic nucleus</BrainRegion>(STh) is connected with the <BrainRegion>subcommisural ventral pallidum</BrainRegion>, whereas a more <BrainRegion>ventral and lateral part of the medial subthalamic nucleus</BrainRegion>(STh) is related to the <BrainRegion>medial globus pallidus</BrainRegion>
+
+The <BrainRegion>lateral hypothalamic area</BrainRegion>, directly adjacent to the <BrainRegion>subthalamic nucleus</BrainRegion>(STh) , containing neurons with a morphology quite similar to those in the <BrainRegion>subthalamic nucleus</BrainRegion>(STh) , projects to parts of the <BrainRegion>ventral pallidum</BrainRegion> related to the <BrainRegion>olfactory tubercle</BrainRegion>
+
+The <BrainRegion>0medial subthalamic nucleus</BrainRegion>(STh) sends strong projections to the <BrainRegion>1medial part of the entopeduncular nucleus</BrainRegion> and the adjacent <BrainRegion>2lateral hypothalamic area</BrainRegion>
+
+Sparser projections from the <BrainRegion>0medial subthalamic nucleus</BrainRegion>(STh) reach the <BrainRegion>1rostral and medial part of the caudate-putamen</BrainRegion> and the <BrainRegion>2nucleus accumbens</BrainRegion>

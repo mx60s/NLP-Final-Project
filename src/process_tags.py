@@ -38,7 +38,7 @@ pos_only_y.close()
 pos_only_x.close()
 
 both_y = open(input_file[:-4] + '.y', "w")
-both_x = open(input_file[:-4] + '.y', 'w')
+both_x = open(input_file[:-4] + '.x', 'w')
 for i in range(len(both)):
     both_x.write(both[i][0])
     both_y.write(both[i][1])

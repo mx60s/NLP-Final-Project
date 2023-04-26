@@ -1,4 +1,4 @@
-f1 = open('data/data-positives-only/valid.txt', 'r')
+f1 = open('data/tagged_data/trag.txt', 'r')
 
 f2 = open('data/data-positives-only/relis_valid.x', 'w')
 
